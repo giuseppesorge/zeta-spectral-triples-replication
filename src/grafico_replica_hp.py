@@ -2,13 +2,21 @@
 # errore per indice di zero, per i tre valori di lambda^2, con i tre
 # punti dichiarati nella Tabella 6 del paper sovrapposti.
 import json
+from pathlib import Path
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-ris35 = json.load(open("replica_zst_hp.json"))
-ris80 = json.load(open("replica_zst_80.json"))
+# i JSON vengono cercati prima nella directory corrente (run appena
+# rigenerati), poi in results/ accanto a questo script (dati pubblicati)
+RESULTS = Path(__file__).resolve().parent.parent / "results"
+def carica(nome):
+    p = Path(nome) if Path(nome).exists() else RESULTS / nome
+    return json.load(open(p))
+
+ris35 = carica("replica_zst_hp.json")
+ris80 = carica("replica_zst_80.json")
 paper = {"12": {1: 3.41e-50, 10: 2.99e-32, 50: 9.02e-2},
          "13": {1: 2.44e-55, 10: 3.98e-37, 50: 2.04e-3},
          "14": {1: 1.07e-60, 10: 2.96e-42, 50: 4.78e-6}}

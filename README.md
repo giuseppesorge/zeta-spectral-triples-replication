@@ -59,7 +59,11 @@ Suggested order:
 3. *(optional)* `python src/replica_zst_hp.py` — 35-digit run, all three
    λ², exhibiting the bottom-cluster degeneracy;
 4. `python src/grafico_replica_hp.py` — regenerates the summary figure
-   from the JSON results.
+   from the JSON results (freshly generated ones in the current directory
+   if present, otherwise the published ones in `results/`).
+
+All scripts write their outputs (JSON tables, PNG figures) to the current
+working directory; the `results/` folder contains the published copies.
 
 Full method and discussion: [replication_note.md](replication_note.md).
 

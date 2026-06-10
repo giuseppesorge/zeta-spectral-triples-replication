@@ -1,5 +1,7 @@
 # Independent numerical replication of "Zeta Spectral Triples"
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20629361.svg)](https://doi.org/10.5281/zenodo.20629361)
+
 Independent numerical replication of the construction in **"Zeta Spectral
 Triples"** by A. Connes, C. Consani and H. Moscovici
 ([arXiv:2511.22755](https://arxiv.org/abs/2511.22755), November 2025):
@@ -63,8 +65,10 @@ Full method and discussion: [replication_note.md](replication_note.md).
 
 ## Citation
 
-If you use this replication, please cite it via the `CITATION.cff` file
-(GitHub's "Cite this repository" button) and cite the original paper:
+This replication is permanently archived at
+[DOI 10.5281/zenodo.20629361](https://doi.org/10.5281/zenodo.20629361).
+Please cite it via the `CITATION.cff` file (GitHub's "Cite this repository"
+button) or the Zenodo record, and cite the original paper:
 
 > A. Connes, C. Consani, H. Moscovici, *Zeta Spectral Triples*,
 > arXiv:2511.22755 (2025).

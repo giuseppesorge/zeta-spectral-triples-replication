@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this replication, please cite it as below."
+title: >-
+  Independent numerical replication of "Zeta Spectral Triples"
+  (Connes-Consani-Moscovici, arXiv:2511.22755)
+authors:
+  - family-names: Sorge
+    given-names: Giuseppe
+    email: giuseppe.sorge90@gmail.com
+date-released: "2026-06-10"
+version: "1.0.0"
+repository-code: "https://github.com/giuseppesorge/zeta-spectral-triples-replication"
+license: MIT
+keywords:
+  - Riemann hypothesis
+  - Riemann zeta function
+  - Weil positivity
+  - spectral triples
+  - noncommutative geometry
+  - numerical replication
+references:
+  - type: article
+    title: "Zeta Spectral Triples"
+    authors:
+      - family-names: Connes
+        given-names: Alain
+      - family-names: Consani
+        given-names: Caterina
+      - family-names: Moscovici
+        given-names: Henri
+    year: 2025
+    url: "https://arxiv.org/abs/2511.22755"
